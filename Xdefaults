@@ -4,15 +4,15 @@
 !
 ! For normal urxvt, change URxvt* to URxvt*
 URxvt*geometry:         	120x36
-URxvt*background:       	#454545
-URxvt*foreground:       	#999999
+URxvt*background:       	#111111
+URxvt*foreground:       	#eeeeee
 URxvt*inheritPixmap:    	true
 !URxvt*reverseVideo:		false
 URxvt*tintColor:        	#dfdfdf
-URxvt*shading:	        60		!trans, 0=opaque    
+URxvt*shading:	        30		!trans, 0=opaque    
 URxvt*fading:	        20		!term unfocus      
 !URxvt*font:			-*-terminus-medium-*-*-*-17-*-*-*-*-*-koi8-*
-URxvt*font			xft:Monospace:pixelsize=21
+URxvt*font			xft:Monospace:size=13
 !URxvt*font:  		xft:matto:antialias=true:size=8
 !URxvt*font:			xft:Bitstream Vera Sans mono:size=9
 URxvt*scrollBar:		false
@@ -26,6 +26,7 @@ URxvt*scrollBar:		false
 !URxvt*colorUL:		yellow
 
 !colors
+
 !black
 URxvt*color0:		#676767
 URxvt*color8:	        #757575
@@ -40,7 +41,7 @@ URxvt*color3:	        #E8AE5B
 URxvt*color11:	        #FFA75D
 !blue
 URxvt*color4:	        #545454
-URxvt*color12:	        #545484
+URxvt*color12:	        #8484d4
 !magenta
 URxvt*color5:	        #E2BAF1
 URxvt*color13:	        #ECAEE9
