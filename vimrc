@@ -1,4 +1,14 @@
 filetype indent on " per-filetype config
+
+" Look
+set background=dark
+syntax on
+
+" Search
+set hlsearch
+set ignorecase
+
+" Misc
 set tabstop=8
 set expandtab
 set smarttab
@@ -8,8 +18,4 @@ set autoindent
 set number
 set pastetoggle=<F5>
 set autoindent
-set ignorecase
 set ruler
-colorscheme oipat
-syntax on
-
