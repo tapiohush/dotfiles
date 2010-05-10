@@ -25,7 +25,7 @@ alias note="cat <<EOF>>~/.notes"
 alias pnote="cat ~/.notes"
 
 
-export PAGER=`which less`
+export PAGER='/usr/bin/less'
 export EDITOR='/usr/bin/vim'
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
@@ -40,6 +40,8 @@ case "$OSTYPE" in
             ;;
     FreeBSD )
             alias ls='ls -G'
+            # Fix bsd-utf headace
+            export LANG='nb_NO.UTF-8' 
             ;;
     *       )
             alias ls='ls --color'
