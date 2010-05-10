@@ -36,10 +36,11 @@ shopt -s checkwinsize
 case "$OSTYPE" in
     Linux   )
             alias ls='ls --color'
-            alias dun="du -ah --max-depth=1" # FreeBSD equivalent?
+            alias dun="du -ah --max-depth=1"
             ;;
     FreeBSD )
             alias ls='ls -G'
+            alias dun="du -h -d 1"
             # Fix bsd-utf headace
             export LANG='nb_NO.UTF-8' 
             ;;
