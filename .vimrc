@@ -19,3 +19,5 @@ set number
 set pastetoggle=<F5>
 set autoindent
 set ruler
+
+set nocompatible
