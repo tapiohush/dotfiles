@@ -20,7 +20,6 @@ fi
 complete -cf sudo
 
 alias psgrep="ps aux | grep $1"
-alias dun="du -ah --max-depth=1"
 alias note="cat <<EOF>>~/.notes"
 alias pnote="cat ~/.notes"
 
