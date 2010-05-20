@@ -2,10 +2,8 @@ screen    -t main 0
 select 0
 bindkey "^[a" prev
 bindkey "^[d" next
-#defutf8 on
 
 startup_message off
-shell        -$SHELL
 vbell off
 nethack on
 zombie cr
