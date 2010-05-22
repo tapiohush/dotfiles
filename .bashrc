@@ -25,7 +25,6 @@ alias pnote="cat ~/.notes"
 
 
 export PAGER='/usr/bin/less'
-export EDITOR='/usr/bin/vim'
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
@@ -40,6 +39,7 @@ case "$OSTYPE" in
     FreeBSD )
             alias ls='ls -G'
             alias dun="du -h -d 1"
+            export TERM='linux'
             # Fix bsd-utf headace
             export LANG='nb_NO.UTF-8' 
             ;;
