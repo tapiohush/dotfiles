@@ -5,7 +5,7 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 */
 
 /* Zenburn color scheme <http://www.brockman.se/software/zenburn/look-zenburn.xrdb> */
-#include "/home/tapio/.xrdb/look-zenburn.xrdb"
+#include "~/.xrdb/look-zenburn.xrdb"
 
 /* 
  *      xterm config
