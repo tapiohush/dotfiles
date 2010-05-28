@@ -5,7 +5,8 @@ URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 */
 
 /* Zenburn color scheme <http://www.brockman.se/software/zenburn/look-zenburn.xrdb> */
-#include "~/.xrdb/look-zenburn.xrdb"
+/* #include "/.xrdb/look-zenburn.xrdb"*/
+#include "/home/tapio/.xrdb/look-zenburn.xrdb"
 
 /* 
  *      xterm config
@@ -49,7 +50,7 @@ URxvt.print-pipe: cat > $(TMPDIR=$HOME mktemp urxvt.XXXXX)
 URxvt.termname: rxvt                      /* -tn: sets $TERM */
 URxvt*secondaryScroll: true              
 !URxvt.font: -xos4-*-*-*-*-*-24-*-*-*-*-*-*-*
-URxvt.font: xft:Monospace:size=13
+URxvt.font: xft:Monospace:size=9
 URxvt.transparent: False                  /* replaces inheritPixmap */
 
 URxvt.perl-ext-common: default,selection,matcher,searchable-scrollback<M-s>/
@@ -114,3 +115,7 @@ URxvt*urlLauncher: firefox                /* launch firefox on matched text */
 *color7:  COLOR_TERM_DARK_GRAY
 *color15: COLOR_TERM_WHITE
 
+urxvt*perl-ext-common: default,matcher
+urxvt*urlLauncher: firefox
+urxvt*matcher.button: 1
+urxvt*matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-].[\\w/-]
