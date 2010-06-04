@@ -24,7 +24,8 @@ alias note="cat <<EOF>>~/.notes"
 alias pnote="cat ~/.notes"
 
 
-export PAGER='/usr/bin/less'
+export PAGER=`which less`
+export EDITOR=`which vim`
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
