@@ -20,4 +20,8 @@ set pastetoggle=<F5>
 set autoindent
 set ruler
 
+" Make vim behave like most other apps.
+set backspace=2
+
+
 set nocompatible
